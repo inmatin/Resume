@@ -1,0 +1,357 @@
+/*Author: Ishtiaque Matin CST8285*/
+
+/*------------------------------begin------------------------------*/
+/*parallax image*/
+
+/*setting for parallax scrolling on the index page*/
+/*Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. Click on the links below to see the difference between a website with and without parallax scrolling.*/
+
+.parallax-index {
+  background-image: url("matin.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.75;
+
+  min-height: 800px;
+
+  text-align: center;
+
+  font-size: 36px;
+}
+
+.parallax-courses {
+  background-image: url("courses.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.75;
+
+  min-height: 500px;
+
+  text-align: center;
+
+  font-size: 36px;
+}
+
+.parallax-resume {
+  background-image: url("resume.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.75;
+
+  min-height: 500px;
+  text-align: center;
+
+  font-size: 36px;
+}
+
+.parallax-contact {
+  background-image: url("contact.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.75;
+
+  min-height: 500px;
+  text-align: center;
+
+  font-size: 36px;
+}
+
+/*setting for title of the page*/
+.parallax-fieldset {
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+
+  text-align: center;
+
+  opacity: 0.6;
+
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  /*The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a <transform-function> data type.*/
+  transform: translate(-50%, -50%);
+
+  /*The white-space CSS property sets how white space inside an element is handled*/
+  white-space: nowrap;
+
+  padding: 12px 24px;
+  color: black;
+  font-size: 50px;
+  letter-spacing: 4px;
+  
+}
+
+.parallax-fieldset:hover {
+  opacity: 1;
+}
+
+/*------------------------------begin------------------------------*/
+/*body*/
+
+
+body,
+html {
+  background-color: saddlebrown; /*change background color*/
+  font-family: Georgia, "Times New Roman", Times, serif; /*change the font family*/
+
+  line-height: 1.5;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+/*tag with declaration*/
+h1 {
+  color: #12448f;
+}
+
+/*tag with declaration*/
+h2 {
+  color: white;
+}
+
+/*------------------------------begin------------------------------*/
+/*course*/
+.course {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: xxx-large;
+  padding-left: 25px;
+}
+
+.course img {
+  width: 200px;
+}
+
+.course-h1 {
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: x-large;
+  padding-left: 25px;
+}
+
+/*setting for paragraph*/
+.course-h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  font-size: large;
+}
+
+/*------------------------------begin------------------------------*/
+/*navbar*/
+
+/*setting for the navigation bar*/
+.navbar {
+  background-color: black;
+  text-align: center;
+
+  opacity: 0.6;
+  font-size: large;
+
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  border: none;
+  display: block;
+  outline: 0;
+  white-space: normal;
+  float: left;
+}
+
+.navbar:hover {
+  opacity: 1;
+}
+
+/*tag with declaration block*/
+/*before a visit*/
+.navbar a:link {
+  color: orangered;
+}
+
+/*------------------------------end------------------------------*/
+/*a*/
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+a:hover {
+  color: white;
+  opacity: 0.5;
+  background-color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: #2196f3;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+.img:hover {
+ 
+ opacity: 0.5;
+}
+
+.img a:hover{
+  background-color: saddlebrown;
+}
+/*------------------------------begin------------------------------*/
+/*footer*/
+/*tag with declaration block*/
+footer {
+  background-color: black;
+  text-align: center;
+ 
+  opacity: 0.6;
+  font-size: x-large;
+  padding: 20px;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+/*------------------------------begin------------------------------*/
+/*form*/
+
+.form {
+  padding: 0 8px;
+  margin: 0 -16px 8px -16px;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid #ccc;
+}
+.form-input {
+  padding: 8px;
+  display: block;
+  width: 100%;
+}
+/*------------------------------begin------------------------------*/
+/*contact*/
+.contact1 {
+  font-size: xxx-large;
+  text-align: center;
+  color: black;
+}
+/*------------------------------begin------------------------------*/
+/*address*/
+.address {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: xx-large;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid #ccc;
+}
+/*------------------------------begin------------------------------*/
+/*resume*/
+
+/*bullet points outside the list*/
+.resume {
+  color: black;
+  list-style-position: outside;
+}
+
+.resume img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.resume-table {
+  padding-top: 25px;
+  border: 1px solid;
+}
+
+/*------------------------------begin------------------------------*/
+/*table*/
+
+/*setting for table*/
+table {
+  width: 100%;
+}
+
+/*setting for column*/
+.tr1 {
+  width: 80%;
+}
+
+.tr1 a {
+  float: left;
+}
+
+/*setting for column*/
+.tr2 {
+  width: 20%;
+  vertical-align: top;
+}
+
+/*------------------------------begin------------------------------*/
+/*resume indentation*/
+
+/*setting for paragraph*/
+.resume-25 {
+  padding-left: 50px;
+  font-size: large;
+  color: whitesmoke;
+}
+
+.resume-50 {
+  padding-left: 100px;
+}
+
+/*------------------------------begin------------------------------*/
+/*filter*/
+.filter {
+  color: black;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding: 20px;
+  border: 5px solid #ccc;
+}
+
+/*W3C CSS Validated*/
